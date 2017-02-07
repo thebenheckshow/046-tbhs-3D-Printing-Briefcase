@@ -1,0 +1,54 @@
+NOTE: the following has been tested, but not extensively.  
+
+I added the possibility to store settings in EEPROM for marlin.
+
+M500 stores current settings,
+M501 retreives the data from EEPROM (also automatically done after a reset)
+M502 reverts to the 'factory defaults'   You'll need to send an M500 if you want to store this in EEPROM.
+
+
+The following data is stored:
+Steps per unit:
+   M92 X80.00 Y80.00 Z533.00 E14.00
+Maximum feedrates (mm/s):
+   M203 X190.00 Y190.00 Z10.00 E8333.33
+Maximum Acceleration (mm/s2):
+   M201 X9000 Y9000 Z150 E10000
+Acceleration: S=acceleration, T=retract acceleration
+   M204 S100.00 T7000.00
+Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum xY jerk (mm/s),  Z=maximum Z jerk (mm/s)
+   M205 S20.00 T100.00 B20000 X5.00 Z1.00
+
+
+The settings are displayed after a reset or M501/M502 command. Replicator G will show it as "unknown" data
+
+Easiest thing to do is to write a simple GCODE script that contains all your settings  and run it once.   You may have to run it again after future firmware upgrades.
+
+E.g:
+
+   M92 X80.00 Y80.00 Z533.00 E14.00
+   M203 X190.00 Y190.00 Z10.00 E8333.33
+   M201 X9000 Y9000 Z150 E10000
+   M204 S100.00 T7000.00
+   M205 S20.00 T100.00 B20000 X5.00 Z1.00
+   M500
+
+
+
+
+
+Default Printrboard Settings:
+
+echo:Using Default settings:
+echo:Steps per unit:
+echo:  M92 X63.36 Y63.36 Z2272.72 E590.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X60.00 Y60.00 Z2.00 E14.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X2000 Y2000 Z30 E10000
+echo:Acceleration: S=acceleration, T=retract acceleration
+echo:  M204 S3000.00 T3000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum xY jerk (mm/s),  Z=maximum Z jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+echo:PID settings:
+echo:   M301 P22.20 I1.08 D114.00

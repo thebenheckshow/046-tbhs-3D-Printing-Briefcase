@@ -1,0 +1,42 @@
+Hello Benjamin Heckendorn,
+
+You sent a payment of $293.05 USD to UltiMachine
+(sales@ultimachine.com)
+	
+
+
+It may take a few moments for this transaction to appear in your account.
+Merchant
+UltiMachine
+sales@ultimachine.com
+423-605-2598	Instructions to merchant
+You haven't entered any instructions.
+Shipping address - confirmed
+Benjamin J Heckendorn
+637 Fairmont Ave Apt 2
+Madison, WI 53714
+United States
+	Shipping details
+The seller hasn’t provided any shipping details yet.
+Description	Unit price	Qty	Amount
+Order 8683 at UltiMachine
+, Product count: 3	$283.00 USD	1	$283.00 USD
+Subtotal	$283.00 USD
+Shipping and handling	$10.05 USD
+Total	$293.05 USD
+Payment	$293.05 USD
+Payment sent to sales@ultimachine.com	
+
+Invoice ID: 8683-831
+
+
+Issues with this transaction?
+You have 45 days from the date of the transaction to open a dispute in the Resolution Center.
+
+Questions? Go to the Help Center at: www.paypal.com/help.
+Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and click Help in the top right corner of any PayPal page.
+
+You can receive plain text emails instead of HTML emails. To change your Notifications preferences, log in to your account, go to your Profile, and click My settings.
+
+
+PayPal Email ID PP120

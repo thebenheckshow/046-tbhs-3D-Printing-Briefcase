@@ -1,0 +1,5 @@
+MARLIN - open "Marlin.ino" in Arduino. This is the currently uploaded firmware on the device (working)
+
+PrintRun - Contains the Pronterface.exe program to drive printer, and the Slic3r folder with some good, working settings.
+
+PrintRun seems to work best placed on the root directory of C:

@@ -1,0 +1,12 @@
+
+
+Reduction: 5.18:1
+
+Step Angle: 0.35 degrees
+
+SDP/SI Gear Diameter: 11.96mm
+
+Circumference: 37.573mm
+
+Degrees Per MM Extrusion: 9.581
+

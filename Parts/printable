@@ -1,0 +1,6 @@
+union(){
+translate([0,0,0.9]) import_stl("printableIguslink2_fixed.stl");
+translate([16,8,0]) cube([18, 22, 1]);
+translate([7,10.8,0]) cube([2, 2, 1]);
+translate([7,25,0]) cube([2, 2, 1]);
+}
